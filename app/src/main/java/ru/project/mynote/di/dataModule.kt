@@ -2,10 +2,8 @@ package ru.project.mynote.di
 
 import android.content.Context
 import androidx.room.Room
-import androidx.room.RoomDatabase
 import org.koin.dsl.module
 import ru.project.mynote.data.room.MyRoomManager
-
 
 val dataModule = module {
     single<MyRoomManager> {

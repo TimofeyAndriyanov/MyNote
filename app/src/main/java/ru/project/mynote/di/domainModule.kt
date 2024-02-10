@@ -2,10 +2,7 @@ package ru.project.mynote.di
 
 import org.koin.dsl.module
 import ru.project.mynote.data.room.MyRoomManager
-import ru.project.mynote.domain.usecase.GetAddNoteUseCase
-import ru.project.mynote.domain.usecase.GetDeleteUseCase
-import ru.project.mynote.domain.usecase.GetNotesAllUseCase
-
+import ru.project.mynote.domain.usecase.*
 
 val domainModule = module {
     single<GetNotesAllUseCase> {
