@@ -26,7 +26,10 @@ fun AddNote(navController: NavController): Unit =
     Scaffold(
         topBar = {
             ToolBar(
-                title = "Добавить заметку"
+                title = "Добавить заметку",
+                onNavigationClick = {
+                    navController.navigate("main")
+                }
             )
         },
         content = {
@@ -70,7 +73,10 @@ fun AddNote(navController: NavController): Unit =
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ToolBar(title: String): Unit =
+fun ToolBar(
+    title: String,
+    onNavigationClick: () -> Unit
+): Unit =
     TopAppBar(
         title = {
             Text(
@@ -83,19 +89,25 @@ fun ToolBar(title: String): Unit =
             )
         },
         navigationIcon = {
-            Icon(
-                imageVector = Icons.Default.ArrowBack,
-                contentDescription = "Вернутся обратно на главный экран",
-                modifier = Modifier
-                    .height(34.dp)
-                    .width(34.dp)
-                    .padding(
-                        start = 0.dp,
-                        top = 0.dp,
-                        end = 0.dp,
-                        bottom = 0.dp
+            IconButton(
+                onClick = onNavigationClick,
+                content = {
+                    Icon(
+                        imageVector = Icons.Default.ArrowBack,
+                        contentDescription = "Вернутся обратно на главный экран",
+                        modifier = Modifier
+                            .height(34.dp)
+                            .width(34.dp)
+                            .padding(
+                                start = 0.dp,
+                                top = 0.dp,
+                                end = 0.dp,
+                                bottom = 0.dp
+                            ),
                     )
+                }
             )
+
         }
     )
 
