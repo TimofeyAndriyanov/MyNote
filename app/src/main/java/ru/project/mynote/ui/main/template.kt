@@ -2,6 +2,7 @@ package ru.project.mynote.ui.main
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Card
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -11,8 +12,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import ru.project.mynote.domain.models.Note
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun NoteTemplate(note: Note) {
+fun NoteTemplate(note: Note, onClick: () -> Unit) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -22,7 +24,8 @@ fun NoteTemplate(note: Note) {
                 top = 5.dp,
                 end = 5.dp,
                 bottom = 0.dp
-            )
+            ),
+        onClick = onClick
     ) {
         Column(
             modifier = Modifier.padding(5.dp)

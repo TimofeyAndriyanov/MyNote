@@ -1,5 +1,7 @@
 package ru.project.mynote.ui.main
 
+import android.content.Context
+import android.widget.Toast
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.*
 import androidx.compose.material.icons.Icons
@@ -62,7 +64,14 @@ private fun NoteList(list: List<Note>? = null): Unit =
         list?.let {
             items(it) { note ->
                 NoteTemplate(
-                    note = note
+                    note = note,
+                    onClick = {
+                        Toast.makeText(
+                            get<Context>(Context::class.java).applicationContext,
+                            note.toString(),
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
                 )
             }
         }
