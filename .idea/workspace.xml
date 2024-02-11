@@ -10,8 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5278f5ac-459c-4775-bd27-073e1c3417d6" name="Changes" comment="Create vcs.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/project/mynote/ui/main/MainUI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/project/mynote/ui/main/MainUI.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/project/mynote/ui/main/template.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/project/mynote/ui/main/template.kt" afterDir="false" />
@@ -235,7 +233,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707599491824</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Create vcs.xml">
+      <option name="closed" value="true" />
+      <created>1707647919915</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707647919915</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create vcs.xml">
+      <option name="closed" value="true" />
+      <created>1707647929108</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707647929108</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
