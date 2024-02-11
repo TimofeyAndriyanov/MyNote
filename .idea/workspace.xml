@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5278f5ac-459c-4775-bd27-073e1c3417d6" name="Changes" comment="Create vcs.xml">
+    <list default="true" id="5278f5ac-459c-4775-bd27-073e1c3417d6" name="Changes" comment="workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/project/mynote/ui/main/MainUI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/project/mynote/ui/main/MainUI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/project/mynote/ui/main/template.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/project/mynote/ui/main/template.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/ru/project/mynote/ui/viewingNotes/ViewingNotesUI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/ru/project/mynote/ui/viewingNotes/ViewingNotesUI.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,12 +247,30 @@
       <option name="project" value="LOCAL" />
       <updated>1707647929108</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добавление обработчика нажатий на элемент LazyColumn">
+      <option name="closed" value="true" />
+      <created>1707647987762</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707647987762</updated>
+    </task>
+    <task id="LOCAL-00009" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1707648014934</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707648014934</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Create vcs.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create vcs.xml" />
+    <MESSAGE value="Добавление обработчика нажатий на элемент LazyColumn" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
 </project>
